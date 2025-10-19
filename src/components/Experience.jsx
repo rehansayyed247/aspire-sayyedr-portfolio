@@ -1,6 +1,6 @@
 const experience = [
-  { role:"Senior DevOps Engineer", company:"Merck & Co.", period:"2021 – Present", bullets:["Designed robust CI/CD pipelines using Terraform and GitHub Actions.","Implemented secure secrets management via AWS Secrets Manager.","Automated DR simulations and infrastructure scaling across environments."] },
-  { role:"DevOps Engineer", company:"Infosys Ltd.", period:"2018 – 2021", bullets:["Containerized legacy apps using Docker & Kubernetes.","Streamlined deployments through Jenkins pipelines.","Introduced Infrastructure as Code using Terraform."] }
+  { role:"Senior DevOps Engineer", company:"HCLTech", client:"MSD", period:"2021 – Present", bullets:["Designed robust CI/CD pipelines using Terraform and GitHub Actions.","Implemented secure secrets management via AWS Secrets Manager.","Automated DR simulations and infrastructure scaling across environments."] },
+  { role:"DevOps Engineer", company:"HCLTech", client:"MSD", period:"2018 – 2021", bullets:["Containerized legacy apps using Docker & Kubernetes.","Streamlined deployments through Jenkins pipelines.","Introduced Infrastructure as Code using Terraform."] }
 ];
 
 export default function Experience() {
