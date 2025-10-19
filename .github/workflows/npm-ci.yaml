@@ -1,0 +1,23 @@
+name: npm-ci
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Actions Code
+              uses: actions/checkout@v4
+            - name: Setup Node
+              uses: actions/setup-node@v6
+              with: 
+                node-version: '22'
+            - name: npm ci
+              run: npm ci
+            - name: npm test
+              run: npm test
+
+     
